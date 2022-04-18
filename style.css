@@ -1,145 +1,245 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Lato:ital,wght@1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* header */
 .header {
-    width: 100%;
-    height: 60px;
-    background: rgb(31, 41, 55);
-    background: linear-gradient(111deg, rgba(31, 41, 55, 1) 0%, rgba(3, 76, 178, 1) 100%);
+  width: 100%;
+  height: 60px;
+  background: rgb(31, 41, 55);
+  background: linear-gradient(
+    111deg,
+    rgba(31, 41, 55, 1) 0%,
+    rgba(3, 76, 178, 1) 100%
+  );
 }
 
 .headercontiner {
-    height: 60px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .logo {
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Lato', sans-serif;
-    font-size: 2rem;
-    margin-left: -7rem;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  margin-left: -7rem;
 }
 
 .ul {
-    display: flex;
-    gap: 1.2rem;
+  display: flex;
+  gap: 1.2rem;
 }
 
 .link {
-    color: rgba(255, 255, 255, 1);
-    list-style-type: none;
-    font-family: 'Lato', sans-serif;
-    font-size: medium;
+  color: rgba(255, 255, 255, 1);
+  list-style-type: none;
+  font-family: "Epilogue", sans-serif;
+  font-size: medium;
 }
 
 .link:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .three {
-    margin-right: -7rem;
+  margin-right: -7rem;
 }
 
 /* section1 */
+
 .section1 {
-    width: 100%;
-    height: 450px;
-    background: rgb(17, 64, 130);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  width: 100%;
+  height: 450px;
+  background: rgb(17, 64, 130);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .first-p-section1 {
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Lato', sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Epilogue", sans-serif;
 }
 
 .two-p-section1 {
-    color: rgba(255, 255, 255, 1);
-    width: 350px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-family: 'Lato', sans-serif;
+  color: rgba(255, 255, 255, 1);
+  width: 350px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Epilogue", sans-serif;
 }
 
 .button-section1 {
-    padding: 0.5rem 1rem;
-    background-color: rgba(59, 130, 246, 1);
-    color: rgba(255, 255, 255, 1);
-    border: 0;
-    border-radius: 0.4rem;
-
+  padding: 0.5rem 1rem;
+  background-color: rgba(59, 130, 246, 1);
+  color: rgba(255, 255, 255, 1);
+  border: 0;
+  border-radius: 0.4rem;
 }
-.button-section1:hover{
-    cursor: pointer;
+
+.button-section1:hover {
+  cursor: pointer;
 }
 
 .photo {
-    width: 400px;
-    height: 250px;
-    background-color: rgb(208, 208, 208);
-    margin-left: -7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.5rem;
+  width: 400px;
+  height: 250px;
+  background-color: rgb(208, 208, 208);
+  margin-left: -7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
 }
 
 .p-photo-section1 {
-    color: rgb(69, 168, 255);
-    font-family: 'Lato', sans-serif;
+  color: rgb(69, 168, 255);
+  font-family: "Epilogue", sans-serif;
 }
 
 /* section2 */
 
-.section2{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(230, 230, 230);
-
+.section2 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
 }
 
-.div-section2{
-    display: flex;
-    justify-content: center;
-    gap: 7rem;
-    flex-wrap: wrap;
-    margin-top: 4rem;
-
+.div-section2 {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  flex-wrap: wrap;
+  margin-top: 4rem;
 }
 
-.shape{
-    width: 230px;
-    height: 230px;
-    border: 5px solid rgba(59, 130, 246, 1);
-    border-radius: 30px;
+.shape {
+  width: 230px;
+  height: 230px;
+  border: 5px solid rgba(59, 130, 246, 1);
+  border-radius: 30px;
 }
 
-.content-shape{
-    width: 200px;
-    text-align: center;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-    font-family:'Lato', sans-serif ;
+.content-shape {
+  width: 200px;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  font-family: "Epilogue", sans-serif;
 }
-.h1-section1{
-    text-align: center;
-    padding: 2rem;
-    font-family:'Lato', sans-serif;
+
+.h1-section1 {
+  text-align: center;
+  padding: 2rem;
+  font-family: "Epilogue", sans-serif;
+  font-size: 30px;
+}
+
+/* section 3 */
+
+.section3 {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(229, 231, 235, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-section3 {
+  width: 800px;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  color: rgba(142, 142, 142, 1);
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+}
+
+.p2-section3 {
+  font-size: medium;
+  font-family: "Epilogue", sans-serif;
+  margin-right: -32rem;
+}
+
+/* section 4 */
+.section4 {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-section4 {
+  width: 900px;
+  height: 200px;
+  background-color: rgba(59, 130, 246, 1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.div-button-section4 {
+  height: 180px;
+  margin-top: 6rem;
+}
+
+.button-section4 {
+  background-color: rgba(59, 130, 246, 1);
+  color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.div-section4 {
+  margin-right: -6rem;
+}
+
+.h1-section4 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 1);
+}
+
+.p-section4 {
+  font-family: "Epilogue", sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(31, 41, 55, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-footer {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Epilogue";
+  font-size: larger;
 }
